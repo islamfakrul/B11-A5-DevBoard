@@ -1,0 +1,186 @@
+body {
+    margin-top: 10px;
+    padding: 0px;
+    font-family: Poppins;
+    color: rgb(0, 48, 60);
+    background-color: tomato;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+p {
+    margin: 0px;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+img {
+    object-fit: contain;
+}
+
+.grid-container {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.header {
+    grid-column: 1 / -1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 10px;
+}
+
+.theme-button {
+    border: none;
+}
+
+.top-dashboard {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    padding: 20px 0px 60px;
+}
+
+.assigned-task {
+    grid-column: 1 / 4;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+}
+
+#remaining_tasks span {
+    font-weight: 600;
+}
+
+.discover-new p {
+    color: #ffffff;
+}
+
+.discover-new {
+    grid-column: 4 / 10;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 12px;
+    background: linear-gradient(130.70deg, rgb(55, 82, 253) 0.419%,rgb(108, 127, 250) 52.66%,rgb(155, 168, 248) 99.733%);
+}
+
+.discover-new img{
+    height: auto;
+    width: 50px;
+}
+
+.assigned-date {
+    grid-column: 10 / -1;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+}
+
+.content {
+    background-color: #ffffff;
+    grid-column: 1 / 10;
+    border-radius: 16px;
+}
+
+.issues {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.issue-card {
+    padding: 20px 15px;
+}
+
+.issue-card .brand {
+    color: rgb(0, 48, 60);
+}
+
+.issue-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+}
+
+.issue-details {
+    color: gray;
+}
+
+.issue-card-bottom span {
+    font-weight: 600;
+}
+
+.issue-card-bottom button {
+    border-radius: 8px;
+    background: rgb(55, 82, 253);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px 20px 10px 20px;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    grid-column: 10 / -1;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+.activity {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+
+}
+
+#clear-history {
+    border-radius: 8px;
+    background: rgb(55, 82, 253);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    gap: 10;
+    padding: 10px 20px 10px 20px;
+}
