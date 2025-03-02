@@ -3,11 +3,16 @@ body {
     padding: 0px;
     font-family: 'Poppins';
     color: rgb(0, 48, 60);
+    background-color: #F4F7FF;
 }
 
-button, a {
+button,
+a {
+    font-family: 'Poppins';
     cursor: pointer;
     font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .issue-card-bottom button:disabled {
@@ -21,9 +26,14 @@ p {
     font-size: 16px;
 }
 
+i {
+    text-decoration: underline;
+}
+
 h2 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
+    margin: 0px;
 }
 
 img {
@@ -39,8 +49,11 @@ img {
     gap: 20px;
 }
 
-.header {
+nav {
     grid-column: 1 / -1;
+}
+
+.header {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 16px;
@@ -55,6 +68,10 @@ img {
     gap: 10px;
 }
 
+.nav-left p span {
+    font-weight: 600;
+}
+
 .nav-right {
     display: flex;
     justify-content: space-between;
@@ -67,6 +84,14 @@ img {
     justify-content: space-between;
     align-self: center;
     gap: 10px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background: rgb(244, 247, 255);
+    font-weight: 600;
+}
+
+.check p {
+    font-weight: 600;
 }
 
 .theme-button {
@@ -74,11 +99,18 @@ img {
     background-color: transparent;
 }
 
+.theme-button img {
+    padding: 10px;
+    border-radius: 50%;
+    background: rgb(244, 247, 255);
+}
+
 .top-dashboard {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 20px;
-    padding: 20px 0px 60px;
+    padding: 20px;
+    border-bottom: 0.8px dashed rgba(55, 82, 253, 0.2);
 }
 
 .assigned-task {
@@ -87,6 +119,12 @@ img {
     gap: 10px;
     align-items: center;
     padding: 15px;
+    background-color: #F4F7FF;
+    border-radius: 12px;
+}
+
+.assigned-task p {
+    font-size: 18px;
 }
 
 #remaining_tasks span {
@@ -95,21 +133,25 @@ img {
 
 .discover-new p {
     color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .discover-new {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.blog-button {
     grid-column: 4 / 10;
     display: flex;
     gap: 10px;
     align-items: center;
     padding: 15px;
     border-radius: 12px;
-    background: linear-gradient(130.70deg, rgb(55, 82, 253) 0.419%,rgb(108, 127, 250) 52.66%,rgb(155, 168, 248) 99.733%);
-}
-
-.discover-new img{
-    height: auto;
-    width: 50px;
+    background: linear-gradient(130.70deg, rgb(55, 82, 253) 0.419%, rgb(108, 127, 250) 52.66%, rgb(155, 168, 248) 99.733%);
+    text-decoration: none;
 }
 
 .assigned-date {
@@ -118,6 +160,12 @@ img {
     gap: 10px;
     align-items: center;
     padding: 15px;
+    background-color: #F4F7FF;
+    border-radius: 12px;
+}
+
+.assigned-date p {
+    font-size: 18px;
 }
 
 .content {
@@ -128,16 +176,33 @@ img {
 
 .issues {
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
 }
 
 .issue-card {
     padding: 20px 15px;
+    border-radius: 16px;
+    background: rgb(244, 247, 255);
 }
 
 .issue-card .brand {
     color: rgb(0, 48, 60);
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.issue-card h2 {
+    padding: 20px 0px;
+}
+
+.issue-details {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .issue-card-bottom {
@@ -170,8 +235,12 @@ img {
     background-color: #ffffff;
     grid-column: 10 / -1;
     border-radius: 16px;
-    padding: 20px;
     text-align: center;
+}
+
+.activity-section {
+    border-bottom: 0.8px dashed rgba(55, 82, 253, 0.2);
+    padding: 20px;
 }
 
 .activity {
@@ -180,7 +249,10 @@ img {
     justify-content: center;
     align-items: center;
     padding: 0px 0px 20px 0px;
+}
 
+.activity-message {
+    padding: 20px;
 }
 
 #clear-history {
@@ -193,7 +265,47 @@ img {
     padding: 10px 20px 10px 20px;
 }
 
-#task_done {
+#task_done-1,
+#task_done-2,
+#task_done-3,
+#task_done-4,
+#task_done-5,
+#task_done-6 {
     text-align: left;
     padding-top: 30px;
+}
+
+
+
+
+.nav-right-blog {
+    border-radius: 8px;
+    background: rgb(55, 82, 253);
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.blog-container {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.qstn-ans-card {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0px 0px 20px 0px;
+}
+
+.qstn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px dashed rgb(205, 205, 205);
+}
+
+.ans {
+    font-size: 18px;
+    color: gray;
+    padding: 20px 0px 0px 0px;
 }

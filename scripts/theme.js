@@ -1,4 +1,4 @@
-const colors = ["#F8EDE3", "#D6E5FA", "#FFE5E5", "#FFFFFF", "#E4F1FF", "#E9FAC8"];
+const colors = ["#F8EDE3", "#D6E5FA", "#FFE5E5", "#E4F1FF", "#E9FAC8"];
 
 let colorIndex = 0;
 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="grid-test-section">
+        <div class="grid-container">
+            <nav>
+                <div class="header">
+                    <div class="nav-left">
+                        <img src="/assets/logo.png" alt="">
+                        <p>Dev<span>Board</span></p>
+                    </div>
+                    
+                    <div class="nav-right-blog">
+                        <a href="/index.html" class="back-home">Back to Desk</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <div class="blog-container">
+            <div class="qstn-ans-card">
+                <h2 class="qstn">What are the different ways to select an element in the DOM?</h2>
+                <p class="ans"><i>getElementById</i>, <br><i>getElementsByClassName</i>, <br><i>getElementsByTagName</i>, <br><i>querySelector</i>, and <br><i>querySelectorAll</i></p>
+            </div>
+
+            <div class="qstn-ans-card">
+                <h2 class="qstn">What is the difference between innerHTML, innerText, and textContent ?</h2>
+                <p class="ans"><i>innerHTML</i> shows the HTML inside an element, <i>innerText</i> shows only the visible text, and <i>textContent</i> shows all text, even if it's hidden</p>
+            </div>
+
+            <div class="qstn-ans-card">
+                <h2 class="qstn">What is event delegation in the DOM?</h2>
+                <p class="ans">When you let a parent element handle events for its child elements, so you don’t have to add event listeners to each child.</p>
+            </div>
+
+            <div class="qstn-ans-card">
+                <h2 class="qstn">What is event bubbling in the DOM?</h2>
+                <p class="ans">Imagine you click on a button inside a box. The click doesn’t just stay on the button—it travels up to the box, then to any bigger boxes around it, and so on. This is called event bubbling.</p>
+            </div>
+
+            <div class="qstn-ans-card">
+                <h2 class="qstn">How do you create, add, and remove elements using JavaScript?</h2>
+                <p class="ans"><i>document.createElement</i> to make a new element, <br><i>appendChild</i> to add it to the page, and <br><i>removeChild</i> to delete it</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="/scripts/theme.js"></script>
+    <script src="/scripts/date.js"></script>
+    <script src="/scripts/button_operations.js"></script>
+    <script src="/scripts/clear_history.js"></script>
+    <script src="/scripts/page_change.js"></script>
+</body>
+</html>

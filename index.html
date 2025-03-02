@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,53 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <section class="grid-test-section">
         <div class="grid-container">
-            <div class="header">
-                <div class="nav-left">
-                    <img src="/assets/logo.png" alt="">
-                    <p>Dev<span>Board</span></p>
-                </div>
-                
-                <div class="nav-right">
-                    <div class="check">
-                        <img src="/assets/checkbox.png" alt="">
-                        <p id="total_completed_task">23</p>
+            <nav>
+                <div class="header">
+                    <div class="nav-left">
+                        <img src="/assets/logo.png" alt="">
+                        <p>Dev<span>Board</span></p>
                     </div>
-                    
-                    <button id="theme_btn" class="theme-button"><img src="/assets/theme-btn.png" alt=""></button>
-                    
-                </div>
-            </div>
 
-            <div class="content">                
+                    <div class="nav-right">
+                        <div class="check">
+                            <img src="/assets/checkbox.png" alt="">
+                            <p id="total_completed_task">23</p>
+                        </div>
+
+                        <button id="theme_btn" class="theme-button"><img src="/assets/theme-btn.png" alt=""></button>
+
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="content">
                 <div class="top-dashboard">
                     <div class="assigned-task">
                         <img src="/assets/checkbox.png" alt="">
                         <p id="remaining_tasks">Task Assigned<br><span>06</span></p>
                     </div>
 
-                    <div class="discover-new">
-                        <img src="/assets/board.png" alt="">
-                        <p>Discover Something New Today!</p>
-                    </div>
+                    <a href="/blog.html" class="blog-button">
+                        <div class="discover-new">
+                            <img src="/assets/board.png" alt="">
+                            <p>Discover Something New Today!</p>
+                        </div>
+                    </a>
 
                     <div class="assigned-date">
                         <img src="/assets/calender.png" alt="">
-                        <strong><p id="assigned-date"></p></strong>
+                        <strong>
+                            <p id="assigned-date"></p>
+                        </strong>
                     </div>
                 </div>
 
@@ -51,7 +62,8 @@
                     <div class="issue-card">
                         <p class="brand">ShopEase</p>
                         <h2 id="issue-title-1">Fix Mobile Button Issue</h2>
-                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure
+                            onClick works properly and ensure onClick works properly</p>
                         <div class="issue-card-bottom">
                             <p>Deadline<br><span>21 March 2025</span></p>
                             <button id="completed_task-1">Completed</button>
@@ -59,9 +71,10 @@
                     </div>
 
                     <div class="issue-card">
-                        <p class="brand">ShopEase</p>
-                        <h2 id="issue-title-2">Fix Mobile Button Issue</h2>
-                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                        <p class="brand">CloudSync</p>
+                        <h2 id="issue-title-2">Add Dark Mode</h2>
+                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure
+                            onClick works properly and ensure onClick works properly</p>
                         <div class="issue-card-bottom">
                             <p>Deadline<br><span>21 March 2025</span></p>
                             <button id="completed_task-2">Completed</button>
@@ -69,9 +82,10 @@
                     </div>
 
                     <div class="issue-card">
-                        <p class="brand">ShopEase</p>
-                        <h2 id="issue-title-3">Fix Mobile Button Issue</h2>
-                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                        <p class="brand">SwiftPay</p>
+                        <h2 id="issue-title-3">Optimize Home page</h2>
+                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure
+                            onClick works properly and ensure onClick works properly</p>
                         <div class="issue-card-bottom">
                             <p>Deadline<br><span>21 March 2025</span></p>
                             <button id="completed_task-3">Completed</button>
@@ -79,9 +93,10 @@
                     </div>
 
                     <div class="issue-card">
-                        <p class="brand">ShopEase</p>
-                        <h2 id="issue-title-4">Fix Mobile Button Issue</h2>
-                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                        <p class="brand">Meta</p>
+                        <h2 id="issue-title-4">Add new emoji 🤲</h2>
+                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure
+                            onClick works properly and ensure onClick works properly</p>
                         <div class="issue-card-bottom">
                             <p>Deadline<br><span>21 March 2025</span></p>
                             <button id="completed_task-4">Completed</button>
@@ -89,9 +104,10 @@
                     </div>
 
                     <div class="issue-card">
-                        <p class="brand">ShopEase</p>
-                        <h2 id="issue-title-5">Fix Mobile Button Issue</h2>
-                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                        <p class="brand">Google LLC</p>
+                        <h2 id="issue-title-5">Integrate OpenAI API</h2>
+                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure
+                            onClick works properly and ensure onClick works properly</p>
                         <div class="issue-card-bottom">
                             <p>Deadline<br><span>21 March 2025</span></p>
                             <button id="completed_task-5">Completed</button>
@@ -99,9 +115,10 @@
                     </div>
 
                     <div class="issue-card">
-                        <p class="brand">ShopEase</p>
-                        <h2 id="issue-title-6">Fix Mobile Button Issue</h2>
-                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                        <p class="brand">Glassdoar</p>
+                        <h2 id="issue-title-6">Improve Job searching</h2>
+                        <p class="issue-details">Debug using Chrome DevTools, check for overlapping elements, and ensure
+                            onClick works properly and ensure onClick works properly</p>
                         <div class="issue-card-bottom">
                             <p>Deadline<br><span>21 March 2025</span></p>
                             <button id="completed_task-6">Completed</button>
@@ -117,10 +134,18 @@
                         <img src="/assets/activity.png" alt="">
                         <p>Activity Log</p>
                     </div>
-    
+
                     <button id="clear-history">Clear History</button>
                 </div>
-                <p id="task_done">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, possimus.</p>
+
+                <div class="activity-message">
+                    <p id="task_done-1"></p>
+                    <p id="task_done-2"></p>
+                    <p id="task_done-3"></p>
+                    <p id="task_done-4"></p>
+                    <p id="task_done-5"></p>
+                    <p id="task_done-6"></p>
+                </div>
             </div>
         </div>
     </section>
@@ -129,5 +154,7 @@
     <script src="/scripts/date.js"></script>
     <script src="/scripts/button_operations.js"></script>
     <script src="/scripts/clear_history.js"></script>
+    <script src="/scripts/page_change.js"></script>
 </body>
+
 </html>
