@@ -291,6 +291,10 @@ nav {
     font-size: 20px;
 }
 
+.blog-container h1 {
+    text-align: center;
+}
+
 .qstn-ans-card {
     padding: 20px;
     background-color: #ffffff;
