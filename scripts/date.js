@@ -1,0 +1,1 @@
+document.getElementById("assigned-date").innerHTML = new Date();

@@ -1,13 +1,13 @@
 body {
     margin-top: 10px;
     padding: 0px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     color: rgb(0, 48, 60);
-    background-color: tomato;
 }
 
 button, a {
     cursor: pointer;
+    font-size: 16px;
 }
 
 p {
@@ -66,6 +66,7 @@ img {
 
 .theme-button {
     border: none;
+    background-color: transparent;
 }
 
 .top-dashboard {
@@ -137,7 +138,7 @@ img {
 .issue-card-bottom {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px 0px 0px;
+    padding: 25px 0px 0px 0px;
 }
 
 .issue-details {
